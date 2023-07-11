@@ -25,7 +25,7 @@ import com.msvc.tienda.service.MetodoService;
 
 
 @RestController
-@RequestMapping("/rest/metodo")
+@RequestMapping("/metodo")
 public class MetodoRestController {
 
     @Autowired

@@ -72,6 +72,6 @@ public class Oferta {
 	@Column(name = "estado")
     private String estado;
     
-   @Transient //Indica que no se dbe persistir la lista en la base de datos
-    private List<Producto> productos = new ArrayList<>();
+   //@Transient //Indica que no se dbe persistir la lista en la base de datos
+   // private List<Producto> productos = new ArrayList<>();
 }

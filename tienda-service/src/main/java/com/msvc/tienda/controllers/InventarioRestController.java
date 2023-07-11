@@ -24,7 +24,7 @@ import com.msvc.tienda.service.InventarioService;
 
 
 @RestController
-@RequestMapping("/rest/inventario")
+@RequestMapping("/inventario")
 public class InventarioRestController {
 
     @Autowired

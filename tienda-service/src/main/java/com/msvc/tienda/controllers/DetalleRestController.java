@@ -25,7 +25,7 @@ import com.msvc.tienda.service.DetalleService;
 
 
 @RestController
-@RequestMapping("detalle")
+@RequestMapping("/detalle")
 public class DetalleRestController {
 
     @Autowired

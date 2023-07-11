@@ -23,7 +23,6 @@ import com.msvc.tienda.service.UsuarioServices;
 
 
 
-@CrossOrigin(origins = { "http://localhost:4200" })
 @RestController
 @RequestMapping("/usuario")
 public class UsuarioRestController {

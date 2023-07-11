@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.msvc.oferta.entities.Oferta;
-import com.msvc.oferta.entities.Producto;
+
 import com.msvc.oferta.exceptions.ResourceNotFoundException;
 import com.msvc.oferta.repository.OfertaRepository;
 import com.msvc.oferta.service.OfertaService;

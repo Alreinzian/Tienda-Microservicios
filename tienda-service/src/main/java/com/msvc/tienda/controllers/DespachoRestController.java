@@ -22,9 +22,8 @@ import com.msvc.tienda.entity.Despacho;
 import com.msvc.tienda.service.DespachoService;
 
 
-@CrossOrigin(origins = { "http://localhost:4200" })
 @RestController
-@RequestMapping("despacho")
+@RequestMapping("/despacho")
 public class DespachoRestController {
 
     @Autowired
