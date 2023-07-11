@@ -1,26 +1,21 @@
 server:
-  port: 8081
+  port: 8080
   
 spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://dbVentasOnlineServer.mssql.somee.com;databaseName=dbVentasOnlineServer;TrustServerCertificate=True;?&useSSL=false
+    url: jdbc:sqlserver://dbVentasOnlineServer.mssql.somee.com;databaseName=dbVentasOnlineServer;TrustServerCertificate=True;useSSL=false
     username: sagender_SQLLogin_1
     password: 8badzt5se1
-  sql:
-    init:
-      mode: always
-
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
-        
+        dialect: org.hibernate.dialect.SQLServerDialect
   application:
-    name: OFERTA-SERVICE
+    name: OFERTAS-SERVICE
     
 eureka:
   instance:
@@ -30,7 +25,3 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-    
-
-
-    
