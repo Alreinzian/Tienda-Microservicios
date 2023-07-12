@@ -1,4 +1,4 @@
-package com.msvc.oferta.entities;
+package com.msvc.oferta.oferta.entities;
 
 import lombok.AllArgsConstructor;
 

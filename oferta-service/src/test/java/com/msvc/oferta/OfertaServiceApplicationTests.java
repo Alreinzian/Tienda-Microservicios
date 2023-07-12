@@ -1,4 +1,4 @@
-package com.msvc.usuario;
+package com.msvc.oferta;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

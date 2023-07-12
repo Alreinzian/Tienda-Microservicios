@@ -1,16 +1,13 @@
-package com.msvc.oferta.service.impl;
+package com.msvc.oferta.oferta.service.impl;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
-import com.msvc.oferta.entities.Oferta;
-
-import com.msvc.oferta.exceptions.ResourceNotFoundException;
-import com.msvc.oferta.repository.OfertaRepository;
-import com.msvc.oferta.service.OfertaService;
-
+import com.msvc.oferta.oferta.entities.Oferta;
+import com.msvc.oferta.oferta.exceptions.ResourceNotFoundException;
+import com.msvc.oferta.oferta.repository.OfertaRepository;
+import com.msvc.oferta.oferta.service.OfertaService;
 
 import java.util.List;
 import java.util.UUID;

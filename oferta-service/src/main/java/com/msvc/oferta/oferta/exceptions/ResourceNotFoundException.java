@@ -1,4 +1,4 @@
-package com.msvc.oferta.exceptions;
+package com.msvc.oferta.oferta.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException{
 

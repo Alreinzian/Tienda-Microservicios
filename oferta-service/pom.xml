@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.msvc.oferta</groupId>
-	<artifactId>ms-oferta-service</artifactId>
+	<artifactId>ms-ofertas-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ofertas-service</name>
 	<description>Demo project for Spring Boot</description>

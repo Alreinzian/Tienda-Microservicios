@@ -1,4 +1,4 @@
-package com.msvc.oferta.response;
+package com.msvc.oferta.oferta.response;
 
 import lombok.*;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.msvc.oferta.controllers;
+package com.msvc.oferta.oferta.controllers;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,8 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.msvc.oferta.entities.Oferta;
-import com.msvc.oferta.service.OfertaService;
+import com.msvc.oferta.oferta.entities.Oferta;
+import com.msvc.oferta.oferta.service.OfertaService;
 
 import java.util.List;
 

@@ -1,11 +1,11 @@
-package com.msvc.oferta.exceptions;
+package com.msvc.oferta.oferta.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.msvc.oferta.response.ApiResponse;
+import com.msvc.oferta.oferta.response.ApiResponse;
 
 @RestControllerAdvice
 public class GlobalExceptionController {

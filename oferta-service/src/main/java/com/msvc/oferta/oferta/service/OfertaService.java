@@ -1,8 +1,8 @@
-package com.msvc.oferta.service;
+package com.msvc.oferta.oferta.service;
 
 import java.util.List;
 
-import com.msvc.oferta.entities.Oferta;
+import com.msvc.oferta.oferta.entities.Oferta;
 
 public interface OfertaService {
 

@@ -1,4 +1,4 @@
-package com.msvc.oferta;
+package com.msvc.oferta.oferta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class OfertaServiceApplication {
+public class OfertasServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OfertaServiceApplication.class, args);
+		SpringApplication.run(OfertasServiceApplication.class, args);
 	}
 
 }
