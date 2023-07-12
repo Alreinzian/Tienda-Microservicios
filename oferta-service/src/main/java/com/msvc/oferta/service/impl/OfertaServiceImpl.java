@@ -1,10 +1,9 @@
 package com.msvc.oferta.service.impl;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
+
 
 import com.msvc.oferta.entities.Oferta;
 
@@ -12,7 +11,7 @@ import com.msvc.oferta.exceptions.ResourceNotFoundException;
 import com.msvc.oferta.repository.OfertaRepository;
 import com.msvc.oferta.service.OfertaService;
 
-import java.util.ArrayList;
+
 import java.util.List;
 import java.util.UUID;
 

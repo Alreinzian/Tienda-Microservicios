@@ -1,12 +1,12 @@
 server:
-  port: 8080
+  port: 8082
   
 spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://dbVentasOnlineServer.mssql.somee.com;databaseName=dbVentasOnlineServer;TrustServerCertificate=True;useSSL=false
-    username: sagender_SQLLogin_1
-    password: 8badzt5se1
+    url: jdbc:sqlserver://dbAppMedicineService.mssql.somee.com;databaseName=dbAppMedicineService;TrustServerCertificate=True;?&useSSL=false
+    username: vega-vv_SQLLogin_1
+    password: 3fr68tjiy1
   jpa:
     hibernate:
       ddl-auto: update
@@ -15,7 +15,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.SQLServerDialect
   application:
-    name: OFERTAS-SERVICE
+    name: OFERTA-SERVICE
     
 eureka:
   instance:
