@@ -58,11 +58,11 @@ import javax.persistence.Table;
   
   @Basic(optional = false)
   @Column(name = "fechaPedido")
-  private Date fechaPedido;
+  private String fechaPedido;
   
   @Basic(optional = false)
   @Column(name = "fechaEntrega") 
-  private Date fechaEntrega;
+  private String fechaEntrega;
   
   @JoinColumn(name = "id_cliente", referencedColumnName = "id_cliente")
   @ManyToOne(optional = false) 
